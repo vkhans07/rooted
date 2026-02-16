@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# a picture of me lmfao
+/public/Vijay Hans - PfP.jpg

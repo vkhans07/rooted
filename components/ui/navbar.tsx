@@ -12,7 +12,7 @@ import { AiOutlineUser } from "react-icons/ai";
 
 export function NavBar() {
     return (
-        <div className="font-bold flex justify-between bg-black text-white pr-10 pl-10 pt-3 pb-3 fixed top-0 w-full z-50">
+        <div className="font-bold flex justify-between bg-black text-white pr-10 pl-10 pt-3 pb-3 sticky top-0 w-full z-50">
             <div className="text-2xl">
                 <a href="#">rooted.</a>
             </div>

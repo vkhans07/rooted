@@ -37,8 +37,8 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-between pr-10 pl-10 pb-10">
           <div style={{ transform: 'scale(0.9)'}}><TutorCard key={1}></TutorCard></div>
-          <div style={{ transform: 'scale(0.9)'}}><TutorCard key={2} imgSrc="https://media.licdn.com/dms/image/v2/D5603AQFwbUU31WT4OQ/profile-displayphoto-shrink_400_400/B56ZjPDOq6H8Ak-/0/1755820387251?e=1772668800&v=beta&t=1ByEgfnqvmKzS4yMHjNJuzBy17NN5MtnUjHhygQEHm8" name="Alex Backues" school="UC Berkeley PHYS '29"></TutorCard></div>
-          <div style={{ transform: 'scale(0.9)'}}> <TutorCard key={3} imgSrc="https://media.licdn.com/dms/image/v2/D5603AQFdc07H2hifVQ/profile-displayphoto-shrink_800_800/B56ZZ6T0mtHUAc-/0/1745808739063?e=1772668800&v=beta&t=gtlf5VHk3sFl7Ezoy-HXrdOHJ3z6-p0wJjKcsR9F-J4" name="Bruce Li" school="UC Berkeley EECS '29"></TutorCard></div>
+          <div style={{ transform: 'scale(0.9)'}}><TutorCard key={2} imgSrc="https://media.licdn.com/dms/image/v2/D5603AQFwbUU31WT4OQ/profile-displayphoto-shrink_400_400/B56ZjPDOq6H8Ak-/0/1755820387251?e=1772668800&v=beta&t=1ByEgfnqvmKzS4yMHjNJuzBy17NN5MtnUjHhygQEHm8" name="Alex Backues" school="UC Berkeley PHYS '29" instructionMode={["Remote"]}></TutorCard></div>
+          <div style={{ transform: 'scale(0.9)'}}> <TutorCard key={3} imgSrc="https://media.licdn.com/dms/image/v2/D5603AQFdc07H2hifVQ/profile-displayphoto-shrink_800_800/B56ZZ6T0mtHUAc-/0/1745808739063?e=1772668800&v=beta&t=gtlf5VHk3sFl7Ezoy-HXrdOHJ3z6-p0wJjKcsR9F-J4" name="Bruce Li" school="UC Berkeley EECS '29" instructionMode={["In Person"]}></TutorCard></div>
           
          
         </div>

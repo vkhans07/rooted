@@ -8,7 +8,7 @@ interface TutorCardProps{
     name?:string;
     school?:string;
     offers?:string[];
-    style?:string[];
+    instructionMode?:string[];
     paymentMethods?:string[];
     rating?:number;
 }
@@ -18,7 +18,7 @@ export function TutorCard({
     name="Vijay Hans",
     school="UC Berkeley MET '29",
     offers=["CS 61A", "MATH 54", "POLSCI 5"],
-    style=["In Person", "Remote"],
+    instructionMode=["In Person", "Remote"],
     paymentMethods=["Venmo", "Zelle", "Cash"],
     rating=4.8,}:TutorCardProps)
  {
@@ -47,7 +47,7 @@ export function TutorCard({
                     <span>Teaches </span><span>{offers.join(", ")}</span>
                 </div>
                 <div>
-                    <span>Style: </span><span>{style.join(", ")}</span>
+                    <span>Style: </span><span>{instructionMode.join(", ")}</span>
                 </div>
                 <div>
                     <span>Payment: </span><span>{paymentMethods.join(", ")}</span>
